@@ -1,0 +1,23 @@
+/* .app {
+  background-color: #18191a;
+  color: #879593 !important;
+} */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  background-color: #f1f2f5;
+  height: 100vh;
+  overflow-y: overlay;
+  overflow-x: scroll;
+}
+
+.app::-webkit-scrollbar {
+  display: none;
+}
+
+.app__body {
+  display: flex;
+}
